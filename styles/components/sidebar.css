@@ -1,0 +1,44 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+  width: 25%;
+  background-color: var(--Very-dark-blue);
+}
+
+.sidebar__title {
+  color: var(--Soft-orange);
+  font-size: 2rem;
+}
+
+.sidebar__line {
+  height: 1px;
+  background-color: var(--Dark-grayish-blue);
+  width: 100%;
+}
+
+.sidebar__element {
+  color: var(--Grayish-blue);
+  line-height: 1.4rem;
+  font-size: 1rem;
+}
+
+.sidebar__subtitle {
+  color: white;
+  font-weight: 800;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  transition: color 0.2s;
+}
+
+.sidebar__subtitle:hover {
+  color: var(--Soft-orange);
+}
+
+@media screen and (max-width: 620px) {
+  .sidebar {
+    width: 375px;
+    height: 750px;
+  }
+}
